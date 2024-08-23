@@ -105,7 +105,7 @@ header div {
   margin-bottom: 20px;
 }
 
-.mission-vision p {
+.mission-vision p { 
   max-width: 700px;
   margin: 0 auto 20px auto;
   line-height: 1.5;
@@ -433,7 +433,7 @@ div i {
 @media (max-width: 600px) {
   header {
     flex-direction: column;
-    padding: 10px 20px;
+    padding: 10px 140px;
   }
 
   .hero {
@@ -458,6 +458,7 @@ div i {
   .container {
     margin: 20px;
     padding: 20px;
+    margin-top: 80px;
   }
 
   .content {
@@ -511,6 +512,21 @@ div i {
     justify-content: center;
     margin: 20px 0;
   }
+
+  
+.headline {
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+}
+
+.subtext {
+  font-size: 22px;
+  color: white;
+}
+
+.buttons {
+  margin:  50px 50px;
 }
 
 /* Tablet devices (600px to 1024px) */
@@ -618,4 +634,5 @@ div i {
   .container {
     flex-direction: row;
   }
+
 }
